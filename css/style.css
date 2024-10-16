@@ -1,5 +1,5 @@
 body {
-  background-image: url('../media/orange.jpg');
+  background-image: url('../media/space.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -37,11 +37,6 @@ main-nav ul li a {
   color: #ccc;
 }
 
-nav ul li a {
-  color: #ee2929;
-  text-decoration: none;
-}
-
 nav ul li a:hover {
   color: #fff580; 
   background-color: #2200fb; 
@@ -52,7 +47,7 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   unicode-bidi: isolate;
-  background-color: rgba(27, 127, 204, .8);
+  background-color: rgb(96 0 112);
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
@@ -79,7 +74,7 @@ nav ul li a:hover {
 
 header {
   position: relative;
-  margin-top: 40px;
+  margin-top: 5px;
   border-radius: 12px 12px 0px 0px; 
 }
 
@@ -96,6 +91,30 @@ img {
   font-size: 4em;
   font-family: 'Devonshire', Garamond;
   color: #00ffea
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+  color: orange;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+  color: orange;
 }
 
 .header-content {
@@ -118,8 +137,9 @@ div {
 }
 
 li {
-  color: black;
+  color: #b2ffbf;
   font-size: 1em;
+  border: 1px solid;
 }
 
 header a .image1 img {
@@ -159,7 +179,7 @@ footer {
   text-decoration: none; 
   font-size: 1.2em;
   padding: 10px 20px; 
-  background-color: #1b7fcc;
+  background-color: #E91E63;
   border-radius: 5px;	
   transition: background-color 0.3s ease; 
 }
@@ -194,7 +214,22 @@ content-wrapper {
   font-stretch: expanded;
 }
 
+iframe {
+	width: 400th;
+	height: 300px;
+	text-align: center;
+}
+
+section {
+	padding: 10px;
+	background-image: linear-gradient(to left, silver, blue);
+	margin: 6em;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid bisque;
+}
+
 strong {
-  color: blue;
+  color: yellow;
   font-weight: bold;
 }
