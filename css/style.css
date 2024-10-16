@@ -184,14 +184,6 @@ footer {
   transition: background-color 0.3s ease; 
 }
 
-footer {
-    background-color: #1b7fcc;
-    color: black;
-    padding: 0px;
-    text-align: center;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
-}
-
 
 p {
   color: #ffffff;
@@ -214,15 +206,9 @@ content-wrapper {
   font-stretch: expanded;
 }
 
-iframe {
-	width: 400th;
-	height: 300px;
-	text-align: center;
-}
-
-div {
+section {
   padding: 10px;
-  background-image: linear-gradient(to left, silver, blue);
+  background-image: linear-gradient(to left, grey, blue);
   margin: 6em;
   border-radius: 10px;
   text-align: center;
