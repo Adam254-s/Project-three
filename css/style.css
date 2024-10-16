@@ -220,10 +220,10 @@ iframe {
 	text-align: center;
 }
 
-section {
-	padding: 10px;
-	background-image: linear-gradient(to left, silver, blue);
-	margin: 6em;
+div {
+  padding: 10px;
+  background-image: linear-gradient(to left, silver, blue);
+  margin: 6em;
   border-radius: 10px;
   text-align: center;
   border: 1px solid bisque;
