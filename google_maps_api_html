@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Google Maps</title>
+  <title>Google Maps API</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/jquery.bxslider.css">
@@ -41,6 +41,7 @@
       });
     });
   </script>
+
   <footer>
     <p>Written By Adam Sharifeh</p>
   </footer>
